@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# SQLite databases and runtime state
+runtime/
+*.sqlite3
+*.sqlite3-*
+*.db
+
+# Logs
+*.log
+
+# macOS and IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Local history files
+.Rhistory
+.RData
+.python_history
